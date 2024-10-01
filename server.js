@@ -1,6 +1,6 @@
 const express = require("express");
 const stripe = require("stripe")(
-  "sk_test_51PXLFBJIO84MAnBIZ7rcZgaFEEKu8q31aYQm0hyvynVSpd5VZF5gaCqXOmEwPkMzpiqLUkx2uOQxHrNVc5WlD902002j181LRm"
+  "sk_test_51Q52m6H93BkE794uvVFsHxyS6EFaPGZVGYz7J3gHCzICXl4qCHNX3lohnclz0K3iJVV65P4EKqQkAHVKcI7GtOGu00wnIqAck5"
 );
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -17,8 +17,8 @@ const db = knex({
   connection: {
     host: "127.0.0.1",
     user: "postgres",
-    password: "postgres",
-    database: "dealfinder",
+    password: "Amash501...!!!",
+    database: "priceware",
   },
 });
 
